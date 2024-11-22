@@ -45,6 +45,14 @@ body {
   box-sizing: border-box;
 }
 
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+    height: 828px;
+  }
+}
+
 /* Header styles */
 .header {
   display: flex;
@@ -55,28 +63,21 @@ body {
 .title {
   width: 13.5rem;
   height: 2.9375rem;
-  flex-shrink: 0;
 }
 
 .logo {
   width: 2.5625rem;
   height: 2.9375rem;
-  flex-shrink: 0;
   margin-left: 1.5rem;
 }
 
 /* Image1 container styles */
-.image1-container {
+.image1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 0.8125rem;
+  margin-left: 16px;
 }
 
-.image1 {
-  width: 18.0625rem;
-  height: 17.9375rem;
-}
 
 /* Info2 styles */
 .info2 {
